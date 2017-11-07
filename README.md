@@ -1,10 +1,10 @@
 <img src="https://image.ibb.co/hpOVFw/Logo.png" width="700">
 
-[![Version](https://img.shields.io/cocoapods/v/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
+[![Version](https://img.shields.io/cocoapods/v/MagicPresent.svg?style=flat)](http://cocoapods.org/pods/MagicPresent)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![Platform](https://img.shields.io/cocoapods/p/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
-[![License](https://img.shields.io/cocoapods/l/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
+[![Platform](https://img.shields.io/cocoapods/p/MagicPresent.svg?style=flat)](http://cocoapods.org/pods/MagicPresent)
+[![License](https://img.shields.io/cocoapods/l/MagicPresent.svg?style=flat)](http://cocoapods.org/pods/MagicPresent)
 
 *MagicPresent is a simple customizable wrapper for the Custom View Controller Presentation API introduced in iOS 8.*
 
@@ -36,7 +36,7 @@ pod 'MagicPresent'
 ```
 
 ### [Carthage](https://github.com/Carthage/Carthage)
-Add Presentr to you `Cartfile`
+Add MagicPresent to you `Cartfile`
 ```sh
 github "khuong291/MagicPresent"
 ```
@@ -51,7 +51,7 @@ carthage update --platform ios
 
 ## Getting started
 
-### Create a Presentr object
+### Create a MagicPresent object
 
 Your **MagicPresent** can be as simple as this:
 
