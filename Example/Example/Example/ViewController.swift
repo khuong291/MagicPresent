@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     @IBAction func showVC2(_ sender: Any) {
         let vc = ViewController2()
         presentationVC = MagicPresent(presentedViewController: vc, presenting: self)
+        presentationVC?.cornerRadius = 6
+        presentationVC?.position = .center
         present(vc, animated: true, completion: nil)
     }
 }
