@@ -16,11 +16,26 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="ntd-Lv-Di8">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="well-done" translatesAutoresizingMaskIntoConstraints="NO" id="aRC-5K-LQd">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="osQ-TR-SVH" firstAttribute="trailing" secondItem="aRC-5K-LQd" secondAttribute="trailing" id="Tq0-lP-M30"/>
+                <constraint firstItem="aRC-5K-LQd" firstAttribute="top" secondItem="osQ-TR-SVH" secondAttribute="top" id="YF6-Cy-sen"/>
+                <constraint firstItem="aRC-5K-LQd" firstAttribute="leading" secondItem="osQ-TR-SVH" secondAttribute="leading" id="ePG-s6-Q5G"/>
+                <constraint firstItem="osQ-TR-SVH" firstAttribute="bottom" secondItem="aRC-5K-LQd" secondAttribute="bottom" id="z7z-l1-q6M"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="osQ-TR-SVH"/>
             <point key="canvasLocation" x="-121" y="157"/>
         </view>
     </objects>
+    <resources>
+        <image name="well-done" width="500" height="500"/>
+    </resources>
 </document>

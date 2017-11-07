@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController3" customModule="Example" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="1P1-Sm-Y9o" id="Yo4-ie-rUV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1P1-Sm-Y9o">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="congratulations" translatesAutoresizingMaskIntoConstraints="NO" id="AMc-4g-Wmc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ybc-on-IET" firstAttribute="trailing" secondItem="AMc-4g-Wmc" secondAttribute="trailing" id="8wm-Gq-OKY"/>
+                <constraint firstItem="ybc-on-IET" firstAttribute="bottom" secondItem="AMc-4g-Wmc" secondAttribute="bottom" id="S1m-vy-km7"/>
+                <constraint firstItem="AMc-4g-Wmc" firstAttribute="leading" secondItem="ybc-on-IET" secondAttribute="leading" id="jKB-je-inb"/>
+                <constraint firstItem="AMc-4g-Wmc" firstAttribute="top" secondItem="ybc-on-IET" secondAttribute="top" id="ogT-Hr-QwT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ybc-on-IET"/>
+            <point key="canvasLocation" x="-80" y="-56"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="congratulations" width="600" height="200"/>
+    </resources>
+</document>

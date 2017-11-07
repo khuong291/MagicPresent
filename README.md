@@ -77,7 +77,7 @@ present(vc, animated: true, completion: nil)
 In your View Controller you want to present, set preferredContentSize with the size you want
 
 ```swift
-preferredContentSize = CGSize(width: 240 , height: 300) 
+preferredContentSize = CGSize(width: 350 , height: 350) 
 ```
 
 ## Main Types
@@ -96,10 +96,13 @@ public enum PresentationPosition {
 
 #### Center
 
+#### Top
+
 ## Properties
 
 #### Properties are optional, as they all have Default values.
 
+```swift
 open var animationDuration: Double = 0.2
 open var position: PresentationPosition = .center
 open var shadowEnabled = true
@@ -111,7 +114,7 @@ open var shadowOpacity: Float = 0.5
 open var shadowRadius: CGFloat = 5
 open var shadowOffsetWidth = 0
 open var shadowOffsetHeight = -3
-
+```
 
 ## Requirements
 

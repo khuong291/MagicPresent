@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  ViewController3.swift
 //  Example
 //
 //  Created by KhuongPham on 11/7/17.
@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-final class ViewController2: UIViewController {
+final class ViewController3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        preferredContentSize = CGSize(width: 350 , height: 350)
+        preferredContentSize = CGSize(width: UIScreen.main.bounds.width, height: 140)
     }
 }

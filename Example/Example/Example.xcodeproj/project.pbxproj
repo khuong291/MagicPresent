@@ -16,6 +16,8 @@
 		1BD3DF461FB1556200F9C194 /* MagicPresent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD3DF441FB1554C00F9C194 /* MagicPresent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1BD3DF4D1FB1589200F9C194 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3DF4C1FB1589200F9C194 /* ViewController2.swift */; };
 		1BD3DF4F1FB158A300F9C194 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3DF4E1FB158A300F9C194 /* ViewController2.xib */; };
+		1BD3DF521FB1A69F00F9C194 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3DF511FB1A69F00F9C194 /* ViewController3.swift */; };
+		1BD3DF541FB1A6D400F9C194 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3DF531FB1A6D400F9C194 /* ViewController3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		1BD3DF3F1FB1554C00F9C194 /* MagicPresent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MagicPresent.xcodeproj; path = ../../MagicPresent/MagicPresent.xcodeproj; sourceTree = "<group>"; };
 		1BD3DF4C1FB1589200F9C194 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		1BD3DF4E1FB158A300F9C194 /* ViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		1BD3DF511FB1A69F00F9C194 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		1BD3DF531FB1A6D400F9C194 /* ViewController3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1BD3DF391FB1553800F9C194 /* Info.plist */,
 				1BD3DF4C1FB1589200F9C194 /* ViewController2.swift */,
 				1BD3DF4E1FB158A300F9C194 /* ViewController2.xib */,
+				1BD3DF511FB1A69F00F9C194 /* ViewController3.swift */,
+				1BD3DF531FB1A6D400F9C194 /* ViewController3.xib */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				1BD3DF4F1FB158A300F9C194 /* ViewController2.xib in Resources */,
 				1BD3DF351FB1553800F9C194 /* Assets.xcassets in Resources */,
 				1BD3DF331FB1553800F9C194 /* Main.storyboard in Resources */,
+				1BD3DF541FB1A6D400F9C194 /* ViewController3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +214,7 @@
 			files = (
 				1BD3DF301FB1553800F9C194 /* ViewController.swift in Sources */,
 				1BD3DF2E1FB1553800F9C194 /* AppDelegate.swift in Sources */,
+				1BD3DF521FB1A69F00F9C194 /* ViewController3.swift in Sources */,
 				1BD3DF4D1FB1589200F9C194 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

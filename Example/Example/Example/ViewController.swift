@@ -17,11 +17,25 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func showVC2(_ sender: Any) {
+    @IBAction func showTopPosition(_ sender: Any) {
+        let vc = ViewController3()
+        presentationVC = MagicPresent(presentedViewController: vc, presenting: self)
+        presentationVC?.position = .top
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func showCenterPosition(_ sender: Any) {
         let vc = ViewController2()
         presentationVC = MagicPresent(presentedViewController: vc, presenting: self)
         presentationVC?.cornerRadius = 6
         presentationVC?.position = .center
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func showBottomPosition(_ sender: Any) {
+        let vc = ViewController3()
+        presentationVC = MagicPresent(presentedViewController: vc, presenting: self)
+        presentationVC?.position = .bottom
         present(vc, animated: true, completion: nil)
     }
 }
