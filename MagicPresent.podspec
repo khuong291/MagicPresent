@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "A lightweight Swift wrapper for custom ViewController presentations on iOS"
   s.description  = <<-DESC
-                    A lightweight Swift wrapper for custom ViewController presentations on iOS
+                    Simplifies creating custom view controller presentations. Specially the typical ones we use which are a popup, an alert, or a any non-full-screen modal. Abstracts having to deal with custom presentation controllers and transitioning delegates
                    DESC
   s.homepage     = "http://github.com/khuong291/MagicPresent"
   s.license      = { :type => "MIT", :file => "LICENSE" }
